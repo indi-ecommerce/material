@@ -1,0 +1,21 @@
+{
+  "name": "@indi/material",
+  "version": "0.0.1",
+  "description": "INDI-Material resources",
+  "author": "Marko Postma <marko.postma@indi.nl>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "screenshot.png"
+  ],
+  "keywords": [
+    "INDI",
+    "Material",
+    "Design"
+  ],
+  "dependencies": {
+    "material-components-web": "^10.0.0"
+  }
+}
