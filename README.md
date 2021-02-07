@@ -15,3 +15,21 @@ npm install @indi/material
 ``` scss
 @import "@indi/material/scss";
 ```
+
+## Contributing
+
+Commit and push changes to git remote tagged with the new version.
+
+``` shell
+git add .
+git commit -m "new release"
+git tag v1.1.0
+git push origin master --tags
+```
+
+Publish the package to NPM.
+
+``` shell
+npm version from-git
+npm publish
+```
