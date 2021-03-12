@@ -13,7 +13,20 @@ npm install @indi/material
 ## Usage
 
 ``` scss
-@import "@indi/material/scss";
+// Use default values (recommended)
+@use "@indi/material/theme";
+
+// Or with custom configuration
+@use "@indi/material/theme" with (
+    $primary: blue,
+    ...
+);
+```
+
+## Testing
+
+``` shell
+npm test [-- --watch]
 ```
 
 ## Contributing

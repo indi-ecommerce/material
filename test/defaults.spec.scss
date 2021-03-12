@@ -1,0 +1,15 @@
+@use "../node_modules/sass-true" as *;
+
+@use "../theme" as defaultTheme;
+
+@include describe("with default values") {
+    @include it("loads without errors") {
+        @include assert-unequal(defaultTheme, null);
+    }
+
+    @include it("forwards variables") {
+        @include assert-equal(defaultTheme.$primary, #ff4e00);
+        @include assert-equal(defaultTheme.$secondary, #434b4d);
+        @include assert-equal(defaultTheme.$background, white);
+    }
+}

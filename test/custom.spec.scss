@@ -1,0 +1,19 @@
+@use "../node_modules/sass-true" as *;
+
+@use "../theme" as customTheme with (
+    $primary: pink,
+    $secondary: blue,
+    $background: cyan,
+);
+
+@include describe("with custom values") {
+    @include it("loads without errors") {
+        @include assert-unequal(customTheme, null);
+    }
+
+    @include it("forwards variables") {
+        @include assert-equal(customTheme.$primary, pink);
+        @include assert-equal(customTheme.$secondary, blue);
+        @include assert-equal(customTheme.$background, cyan);
+    }
+}

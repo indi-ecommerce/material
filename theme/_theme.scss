@@ -1,0 +1,8 @@
+@use "defaults" as *;
+
+// Material Theming
+@use "@material/theme" with (
+    $primary: $primary,
+    $secondary: $secondary,
+    $background: $background,
+);
