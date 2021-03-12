@@ -13,7 +13,8 @@
     },
     "files": [
         "screenshot.png",
-        "theme/*.scss"
+        "theme/*.scss",
+        "dist/*.css"
     ],
     "jest": {
         "verbose": true,
