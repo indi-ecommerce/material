@@ -5,8 +5,9 @@
     "description": "INDI-Material resources",
     "author": "Marko Postma <marko.postma@indi.nl>",
     "license": "MIT",
+    "sideEffects": false,
     "scripts": {
-        "test": "jest test/scss.spec.js"
+        "test": "jest"
     },
     "files": [
         "screenshot.png",

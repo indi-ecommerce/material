@@ -1,0 +1,13 @@
+{
+    "name": "test-example",
+    "version": "0.0.1",
+    "scripts": {
+        "build": "sass style.scss style.css -I ./ -I node_modules -I node_modules/@indi/material/node_modules"
+    },
+    "dependencies": {
+        "@indi/material": "file:../"
+    },
+    "devDependencies": {
+        "sass": "^1.32.8"
+    }
+}
