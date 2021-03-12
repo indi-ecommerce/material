@@ -4,6 +4,8 @@
     $primary: pink,
     $secondary: blue,
     $background: cyan,
+    $on-primary: black,
+    $on-secondary: red,
 );
 
 @include describe("with custom values") {
@@ -15,5 +17,7 @@
         @include assert-equal(customTheme.$primary, pink);
         @include assert-equal(customTheme.$secondary, blue);
         @include assert-equal(customTheme.$background, cyan);
+        @include assert-equal(customTheme.$on-primary, black);
+        @include assert-equal(customTheme.$on-secondary, red);
     }
 }

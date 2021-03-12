@@ -7,9 +7,11 @@
         @include assert-unequal(defaultTheme, null);
     }
 
-    @include it("forwards variables") {
+    @include it("has default variables") {
         @include assert-equal(defaultTheme.$primary, #ff4e00);
         @include assert-equal(defaultTheme.$secondary, #434b4d);
         @include assert-equal(defaultTheme.$background, white);
+        @include assert-equal(defaultTheme.$on-primary, white);
+        @include assert-equal(defaultTheme.$on-secondary, white);
     }
 }

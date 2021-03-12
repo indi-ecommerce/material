@@ -1,35 +1,9 @@
 @forward "defaults" show
     $background,
+    $on-primary,
+    $on-secondary,
     $primary,
     $secondary;
 
 @use "theme";
-
-// @use "material-components-web";
-
-// // Import MDC Web components
-// @import "@material/typography/mdc-typography";
-
-// h1 {
-//     @include mdc-typography(headline1);
-// }
-
-// h2 {
-//     @include mdc-typography(headline2);
-// }
-
-// h3 {
-//     @include mdc-typography(headline3);
-// }
-
-// h4 {
-//     @include mdc-typography(headline4);
-// }
-
-// h5 {
-//     @include mdc-typography(headline5);
-// }
-
-// h6 {
-//     @include mdc-typography(headline6);
-// }
+@use "material-components-web";

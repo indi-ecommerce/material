@@ -2,9 +2,9 @@
 
 // Material Theming
 @use "@material/theme" with (
+    $background: $background,
+    $on-primary: $on-primary,
+    $on-secondary: $on-secondary,
     $primary: $primary,
     $secondary: $secondary,
-    $background: $background,
 );
-
-@use "material-components-web";
