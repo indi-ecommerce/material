@@ -12,6 +12,8 @@ npm install @indi/material
 
 ## Usage
 
+This package supports (recommends) SCSS, but a minified CSS version is available in `dist/indi-material.min.css`.
+
 ``` scss
 // Use default values (recommended)
 @use "@indi/material/theme";
